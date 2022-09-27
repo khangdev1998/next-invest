@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXT INVEST</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./build/app.css" />
+  <link rel="stylesheet" href="./build/tailwind.css" />
+</head>
+<!-- npx tailwindcss -i css/tailwind.css -o build/tailwind.css --watch -->
+
+<body>
+  <div class="wrapper">
+    <header class="bg-imageHeader bg-center bg-no-repeat bg-cover lg:h-[870px] h-[520px]">
+      <div class="container-style">
+        <div class="flex justify-between items-center pt-8">
+          <a class="tracking-wider text-2xl font-bold leading-6 text-white" href="index.html">NEXT INVEST</a>
+
+          <ul
+            class="menu z-[999999] lg:static fixed top-0 right-0 bottom-0 lg:w-auto w-[300px] bg-white lg:bg-transparent translate-x-full lg:translate-x-0 lg:transition-none transition-all ease-linear duration-200 list-none flex flex-col lg:flex-row p-6 lg:p-0 lg:text-white text-black lg:items-center items-[initial] text-center overflow-y-auto">
+            <li>
+              <a class="lg:mr-4 inline-block p-3 lg:p-0" href="#!">Investment Opportunities
+                <img class="inline-block lg:pl-1" src="./images/icon-down.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a class="lg:mr-4 inline-block p-3 lg:p-0" href="#!">How its work
+                <img class="inline-block lg:pl-1" src="./images/icon-down.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a class="lg:mr-6 inline-block p-3 lg:p-0" href="#!">About us</a>
+            </li>
+            <li>
+              <a class="inline-block xl:mr-4 lg:mr-3 lg:my-0 my-5 pt-[16px] pb-[12px] text-white bg-primary px-10 font-bold uppercase" href="#!">Login</a>
+            </li>
+            <li>
+              <a class="inline-block pt-[16px] pb-[12px] lg:bg-white bg-primary lg:text-primary text-white font-bold px-10 uppercase"
+                href="#!">Register</a>
+            </li>
+          </ul>
+          <ion-icon class="toggle lg:hidden text-4xl text-white" name="bar-chart-outline"></ion-icon>
+          <div class="overlay"></div>
+        </div>
+      </div>
+
+      <div class="container-style">
+        <div class="lg:pt-[230px] pt-[50px] max-w-3xl text-white">
+          <h1 class="lg:mb-10 mb-4 font-bold md:leading-[80px] leading-[50px] md:text-[60px] text-[30px]">Meaningful
+            investments in Main Street businesses</h1>
+          <p class="max-w-[470px] font-normal lg:text-2xl text-xl lg:leading-8 leading-6">Browse vetted investment
+            offerings in communities all
+            over the US.</p>
+          <a class="lg:mt-10 sm:text-base text-sm mt-6 inline-block lg:pt-[24px] lg:pb-[20px]  pt-[20px] pb-[16px] bg-primary lg:px-10 px-6 font-bold uppercase"
+            href="#!">Get
+            Started</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="lg:pt-[160px] pt-[60px] lg:pb-[60px] pb-[25px]">
+      <div class="max-w-[770px] text-center m-auto">
+        <h2 class="text-[#333333] font-bold lg:text-5xl text-3xl sm:leading-[64px] leading-[40px] mb-6">Offerings open
+          for investment</h2>
+        <p class="lg:text-2xl text-xl leading-8 text-gray font-normal">Explore pre-vetted investment opportunities
+          available in a
+          growing number of industry categories.</p>
+
+      </div>
+
+      <div class="container-style relative">
+        <div class="flex flex-wrap lg:flex-row lg:gap-y-[40px] gap-y-[28px] justify-between mt-[60px]">
+          <div class="group lg:w-widthCalc sm:w-widthCols2 shadow-shadowItem relative overflow-hidden">
+            <div
+              class="lg:group-hover:opacity-[1] lg:group-hover:top-0 opacity-0 top-[-100%] flex flex-col justify-between z-50 bg-white absolute transition-all duration-[.4s] ease-linear h-full">
+              <div class="items-scroll p-6 overflow-y-auto">
+                <h4 class="text-black font-bold text-2xl leading-8">Oxalis</h4>
+                <h5 class="font-normal text-gray leading-6 pb-6">Brooklyn, NY</h5>
+                <p>A recognized leader in language immersion & early education, opening second school.</p>
+                <div class="bg-[#ECECEC] w-full h-2 mb-2 mt-6">
+                  <div class="bg-primary w-[40%] h-2"></div>
+                </div>
+                <span class="text-primary font-bold leading-6">$574,920</span>
+                <span class="text-sm leading-6 font-normal text-black">raised of $1,000,000</span>
+                <div class="w-full h-[1.5px] bg-[#ECECEC] my-6"></div>
+
+                <table class="border-collapse w-full">
+                  <thead>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Security Type</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">Revenue Sharing Note</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Investment Multiple</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">1.4x</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Maturity</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">48 Months</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Min. Investment</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">$100</th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+              <a class="uppercase inline-flex justify-center py-[25px] w-full bg-blue font-bold text-white"
+                href="#!">view</a>
+            </div>
+
+            <div class="h-[240px] relative">
+              <img class="max-w-full w-full h-full lg:object-cover object-cover" src="./images/offerings-1.png" alt="">
+              <div class="absolute top-8 left-6 text-black">
+                <span class="uppercase font-bold text-xs leading-3 bg-blur py-2 px-4 mr-2">House</span>
+                <span class="uppercase font-bold text-xs leading-3 bg-blur py-2 px-4">Family Business</span>
+              </div>
+            </div>
+
+            <div class="p-6">
+              <h4 class="text-black font-bold text-2xl leading-8">Oxalis</h4>
+              <h5 class="font-normal text-gray leading-6 pb-6">Brooklyn, NY</h5>
+              <p class="font-normal leading-6 pb-6">A recognized leader in language immersion & early
+                education, opening second school.</p>
+              <div class="bg-[#ECECEC] w-full h-2 mb-2">
+                <div class="bg-primary w-[40%] h-2"></div>
+              </div>
+              <span class="text-primary font-bold leading-6">$574,920</span>
+              <span class="text-sm leading-6 font-normal text-black">raised of $1,000,000</span>
+            </div>
+          </div>
+          <div class="group lg:w-widthCalc sm:w-widthCols2 shadow-shadowItem relative overflow-hidden">
+            <div
+              class="lg:group-hover:opacity-[1] lg:group-hover:top-0 opacity-0 top-[-100%] flex flex-col justify-between z-50 bg-white absolute transition-all duration-[.4s] ease-linear h-full">
+              <div class="items-scroll p-6 overflow-y-auto">
+                <h4 class="text-black font-bold text-2xl leading-8">Oxalis</h4>
+                <h5 class="font-normal text-gray leading-6 pb-6">Brooklyn, NY</h5>
+                <p>A recognized leader in language immersion & early education, opening second school.</p>
+                <div class="bg-[#ECECEC] w-full h-2 mb-2 mt-6">
+                  <div class="bg-primary w-[88%] h-2"></div>
+                </div>
+                <span class="text-primary font-bold leading-6">$574,920</span>
+                <span class="text-sm leading-6 font-normal text-black">raised of $1,000,000</span>
+                <div class="w-full h-[1.5px] bg-[#ECECEC] my-6"></div>
+
+                <table class="border-collapse w-full">
+                  <thead>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Security Type</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">Revenue Sharing Note</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Investment Multiple</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">1.4x</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Maturity</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">48 Months</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Min. Investment</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">$100</th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+              <a class="uppercase inline-flex justify-center py-[25px] w-full bg-blue font-bold text-white"
+                href="#!">view</a>
+            </div>
+
+            <div class="h-[240px] relative">
+              <img class="max-w-full w-full h-full lg:object-cover object-cover" src="./images/offerings-2.png" alt="">
+              <div class="absolute top-8 left-6 text-black">
+                <span class="uppercase font-bold text-xs leading-3 bg-blur py-2 px-4 mr-2">House</span>
+                <span class="uppercase font-bold text-xs leading-3 bg-blur py-2 px-4">Family Business</span>
+              </div>
+            </div>
+
+            <div class="p-6">
+              <h4 class="text-black font-bold text-2xl leading-8">Oxalis</h4>
+              <h5 class="font-normal text-gray leading-6 pb-6">Brooklyn, NY</h5>
+              <p class="font-normal leading-6 pb-6">A recognized leader in language immersion & early
+                education, opening second school.</p>
+              <div class="bg-[#ECECEC] w-full h-2 mb-2">
+                <div class="bg-primary w-[88%] h-2"></div>
+              </div>
+              <span class="text-primary font-bold leading-6">$574,920</span>
+              <span class="text-sm leading-6 font-normal text-black">raised of $1,000,000</span>
+            </div>
+          </div>
+          <div class="group lg:w-widthCalc sm:w-widthCols2 shadow-shadowItem relative overflow-hidden">
+            <div
+              class="lg:group-hover:opacity-[1] lg:group-hover:top-0 opacity-0 top-[-100%] flex flex-col justify-between z-50 bg-white absolute transition-all duration-[.4s] ease-linear h-full">
+              <div class="items-scroll p-6 overflow-y-auto">
+                <h4 class="text-black font-bold text-2xl leading-8">Oxalis</h4>
+                <h5 class="font-normal text-gray leading-6 pb-6">Brooklyn, NY</h5>
+                <p>A recognized leader in language immersion & early education, opening second school.</p>
+                <div class="bg-[#ECECEC] w-full h-2 mb-2 mt-6">
+                  <div class="bg-primary w-[60%] h-2"></div>
+                </div>
+                <span class="text-primary font-bold leading-6">$574,920</span>
+                <span class="text-sm leading-6 font-normal text-black">raised of $1,000,000</span>
+                <div class="w-full h-[1.5px] bg-[#ECECEC] my-6"></div>
+
+                <table class="border-collapse w-full">
+                  <thead>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Security Type</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">Revenue Sharing Note</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Investment Multiple</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">1.4x</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Maturity</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">48 Months</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Min. Investment</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">$100</th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+              <a class="uppercase inline-flex justify-center py-[25px] w-full bg-blue font-bold text-white"
+                href="#!">view</a>
+            </div>
+
+            <div class="h-[240px] relative">
+              <img class="max-w-full w-full h-full lg:object-cover object-cover" src="./images/offerings-3.png" alt="">
+              <div class="absolute top-8 left-6 text-black">
+                <span class="uppercase font-bold text-xs leading-3 bg-blur py-2 px-4 mr-2">House</span>
+                <span class="uppercase font-bold text-xs leading-3 bg-blur py-2 px-4">Family Business</span>
+              </div>
+            </div>
+
+            <div class="p-6">
+              <h4 class="text-black font-bold text-2xl leading-8">Oxalis</h4>
+              <h5 class="font-normal text-gray leading-6 pb-6">Brooklyn, NY</h5>
+              <p class="font-normal leading-6 pb-6">A recognized leader in language immersion & early
+                education, opening second school.</p>
+              <div class="bg-[#ECECEC] w-full h-2 mb-2">
+                <div class="bg-primary w-[60%] h-2"></div>
+              </div>
+              <span class="text-primary font-bold leading-6">$574,920</span>
+              <span class="text-sm leading-6 font-normal text-black">raised of $1,000,000</span>
+            </div>
+          </div>
+          <div class="group lg:w-widthCalc sm:w-widthCols2 shadow-shadowItem relative overflow-hidden">
+            <div
+              class="lg:group-hover:opacity-[1] lg:group-hover:top-0 opacity-0 top-[-100%] flex flex-col justify-between z-50 bg-white absolute transition-all duration-[.4s] ease-linear h-full">
+              <div class="items-scroll p-6 overflow-y-auto">
+                <h4 class="text-black font-bold text-2xl leading-8">Oxalis</h4>
+                <h5 class="font-normal text-gray leading-6 pb-6">Brooklyn, NY</h5>
+                <p>A recognized leader in language immersion & early education, opening second school.</p>
+                <div class="bg-[#ECECEC] w-full h-2 mb-2 mt-6">
+                  <div class="bg-primary w-[100%] h-2"></div>
+                </div>
+                <span class="text-primary font-bold leading-6">$574,920</span>
+                <span class="text-sm leading-6 font-normal text-black">raised of $1,000,000</span>
+                <div class="w-full h-[1.5px] bg-[#ECECEC] my-6"></div>
+
+                <table class="border-collapse w-full">
+                  <thead>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Security Type</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">Revenue Sharing Note</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Investment Multiple</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">1.4x</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Maturity</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">48 Months</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Min. Investment</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">$100</th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+              <a class="uppercase inline-flex justify-center py-[25px] w-full bg-blue font-bold text-white"
+                href="#!">view</a>
+            </div>
+
+            <div class="h-[240px] relative">
+              <img class="max-w-full w-full h-full lg:object-cover object-cover" src="./images/offerings-4.png" alt="">
+              <div class="absolute top-8 left-6 text-black">
+                <span class="uppercase font-bold text-xs leading-3 bg-blur py-2 px-4 mr-2">House</span>
+                <span class="uppercase font-bold text-xs leading-3 bg-blur py-2 px-4">Family Business</span>
+              </div>
+            </div>
+
+            <div class="p-6">
+              <h4 class="text-black font-bold text-2xl leading-8">Oxalis</h4>
+              <h5 class="font-normal text-gray leading-6 pb-6">Brooklyn, NY</h5>
+              <p class="font-normal leading-6 pb-6">A recognized leader in language immersion & early
+                education, opening second school.</p>
+              <div class="bg-[#ECECEC] w-full h-2 mb-2">
+                <div class="bg-primary w-[100%] h-2"></div>
+              </div>
+              <span class="text-primary font-bold leading-6">$574,920</span>
+              <span class="text-sm leading-6 font-normal text-black">raised of $1,000,000</span>
+            </div>
+          </div>
+          <div class="group lg:w-widthCalc sm:w-widthCols2 shadow-shadowItem relative overflow-hidden">
+            <div
+              class="lg:group-hover:opacity-[1] lg:group-hover:top-0 opacity-0 top-[-100%] flex flex-col justify-between z-50 bg-white absolute transition-all duration-[.4s] ease-linear h-full">
+              <div class="items-scroll p-6 overflow-y-auto">
+                <h4 class="text-black font-bold text-2xl leading-8">Oxalis</h4>
+                <h5 class="font-normal text-gray leading-6 pb-6">Brooklyn, NY</h5>
+                <p>A recognized leader in language immersion & early education, opening second school.</p>
+                <div class="bg-[#ECECEC] w-full h-2 mb-2 mt-6">
+                  <div class="bg-primary w-[50%] h-2"></div>
+                </div>
+                <span class="text-primary font-bold leading-6">$574,920</span>
+                <span class="text-sm leading-6 font-normal text-black">raised of $1,000,000</span>
+                <div class="w-full h-[1.5px] bg-[#ECECEC] my-6"></div>
+
+                <table class="border-collapse w-full">
+                  <thead>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Security Type</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">Revenue Sharing Note</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Investment Multiple</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">1.4x</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Maturity</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">48 Months</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Min. Investment</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">$100</th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+              <a class="uppercase inline-flex justify-center py-[25px] w-full bg-blue font-bold text-white"
+                href="#!">view</a>
+            </div>
+
+            <div class="h-[240px] relative">
+              <img class="max-w-full w-full h-full lg:object-cover object-cover" src="./images/offerings-5.png" alt="">
+              <div class="absolute top-8 left-6 text-black">
+                <span class="uppercase font-bold text-xs leading-3 bg-blur py-2 px-4 mr-2">House</span>
+                <span class="uppercase font-bold text-xs leading-3 bg-blur py-2 px-4">Family Business</span>
+              </div>
+            </div>
+
+            <div class="p-6">
+              <h4 class="text-black font-bold text-2xl leading-8">Oxalis</h4>
+              <h5 class="font-normal text-gray leading-6 pb-6">Brooklyn, NY</h5>
+              <p class="font-normal leading-6 pb-6">A recognized leader in language immersion & early
+                education, opening second school.</p>
+              <div class="bg-[#ECECEC] w-full h-2 mb-2">
+                <div class="bg-primary w-[50%] h-2"></div>
+              </div>
+              <span class="text-primary font-bold leading-6">$574,920</span>
+              <span class="text-sm leading-6 font-normal text-black">raised of $1,000,000</span>
+            </div>
+          </div>
+          <div class="group lg:w-widthCalc sm:w-widthCols2 shadow-shadowItem relative overflow-hidden">
+            <div
+              class="lg:group-hover:opacity-[1] lg:group-hover:top-0 opacity-0 top-[-100%] flex flex-col justify-between z-50 bg-white absolute transition-all duration-[.4s] ease-linear h-full">
+              <div class="items-scroll p-6 overflow-y-auto">
+                <h4 class="text-black font-bold text-2xl leading-8">Oxalis</h4>
+                <h5 class="font-normal text-gray leading-6 pb-6">Brooklyn, NY</h5>
+                <p>A recognized leader in language immersion & early education, opening second school.</p>
+                <div class="bg-[#ECECEC] w-full h-2 mb-2 mt-6">
+                  <div class="bg-primary w-[75%] h-2"></div>
+                </div>
+                <span class="text-primary font-bold leading-6">$574,920</span>
+                <span class="text-sm leading-6 font-normal text-black">raised of $1,000,000</span>
+                <div class="w-full h-[1.5px] bg-[#ECECEC] my-6"></div>
+
+                <table class="border-collapse w-full">
+                  <thead>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Security Type</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">Revenue Sharing Note</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Investment Multiple</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">1.4x</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Maturity</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">48 Months</th>
+                    </tr>
+                    <tr>
+                      <td class="pb-2 text-base leading-6 text-black font-normal">Min. Investment</td>
+                      <th class="pb-2 text-right pl-1 text-base leading-6 text-black font-bold">$100</th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+              <a class="uppercase inline-flex justify-center py-[25px] w-full bg-blue font-bold text-white"
+                href="#!">view</a>
+            </div>
+
+            <div class="h-[240px] relative">
+              <img class="max-w-full w-full h-full lg:object-cover object-cover" src="./images/offerings-6.png" alt="">
+              <div class="absolute top-8 left-6 text-black">
+                <span class="uppercase font-bold text-xs leading-3 bg-blur py-2 px-4 mr-2">House</span>
+                <span class="uppercase font-bold text-xs leading-3 bg-blur py-2 px-4">Family Business</span>
+              </div>
+            </div>
+
+            <div class="p-6">
+              <h4 class="text-black font-bold text-2xl leading-8">Oxalis</h4>
+              <h5 class="font-normal text-gray leading-6 pb-6">Brooklyn, NY</h5>
+              <p class="font-normal leading-6 pb-6">A recognized leader in language immersion & early
+                education, opening second school.</p>
+              <div class="bg-[#ECECEC] w-full h-2 mb-2">
+                <div class="bg-primary w-[75%] h-2"></div>
+              </div>
+              <span class="text-primary font-bold leading-6">$574,920</span>
+              <span class="text-sm leading-6 font-normal text-black">raised of $1,000,000</span>
+            </div>
+          </div>
+
+
+        </div>
+        <img src="./images/bg-style.png" class="xl:block hidden absolute top-[16rem] z-10 left-[-336px]">
+        <button
+          class="uppercase py-6 px-[50px] border-solid border-blue border-[1px] lg:mt-[80px] mt-[50px] inline-block relative left-[50%] translate-x-[-50%] font-bold leading-6 text-blue">View
+          all projects</button>
+      </div>
+    </section>
+
+    <section class="lg:py-[160px] py-[80px] lg:mt-[160px] mt-20 bg-imageUrl bg-center bg-no-repeat bg-cover">
+      <div class="container-style">
+        <div class="flex lg:flex-row flex-col justify-between">
+          <div class="lg:mr-3 lg:mb-0 mb-8">
+            <img class="w-14 h-14" src="./images/investors-2.png" alt="">
+            <h2
+              class="lg:max-w-[570px] max-w-full pt-10 pb-6 font-bold lg:text-5xl text-3xl lg:leading-[64px] leading-[40px] text-[#333333]">
+              $7M+ paid
+              out to investors</h2>
+            <p class="lg:max-w-[570px] max-w-full text-gray lg:text-2xl text-lg leading-8 font-normal">Next Invest has
+              already paid out over $7M
+              in cash returns to investors. Earn potential cash payments through unique revenue-share and debt financing
+              investments.</p>
+          </div>
+          <div class="flex justify-center">
+            <img class="max-w-full pointer-events-none" src="./images/investors-1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lg:py-[180px] py-20">
+      <div class="container-style relative">
+        <div class="flex lg:flex-row flex-col justify-between">
+          <div class="lg:pr-32 p-0">
+            <h2
+              class="lg:max-w-[570px] max-w-full drop-shadow-text text-black lg:text-5xl text-[30px] lg:leading-[64px] leading-[58px] font-bold">
+              Looking to raise capital
+              for your growing business?</h2>
+            <p class="pt-6 lg:pb-10 pb-6 lg:max-w-[570px] max-w-full text-gray lg:text-2xl text-xl leading-8">Whether
+              expanding or opening a brand-new
+              concept, we make it easy to raise money from thousands of local
+              investors.</p>
+            <a class="lg:mt-10 mt-0 lg:text-base text-sm lg:px-10 px-6 lg:pt-[24px] lg:pb-[20px] pt-[20px] pb-[16px] inline-block bg-primary font-bold uppercase text-white"
+              href="#!">Apply Online</a>
+          </div>
+
+          <div class="flex justify-center lg:pt-0 pt-10">
+            <img class="max-w-full" src="./images/business.png" alt="">
+          </div>
+        </div>
+        <img class="xl:block hidden absolute top-[-28px] left-leftCalc" src="./images/bg-style.png" alt="">
+      </div>
+    </section>
+
+    <footer class="sm:py-[60px] py-[45px] bg-[#ECECEC]">
+      <div class="container-style">
+        <div class="grid sm:grid-cols-grid4 grid-cols-1 sm:gap-[40px] gap-[30px]">
+          <div>
+            <a class="tracking-wider text-2xl font-bold leading-6 text-[black]" href="#!">
+              NEXT INVEST</a>
+            <p class="sm:pt-[30px] pt-[15px] text-base leading-5 font-normal text-black tracking-[-0.204545px]">
+              Copyright © 2022.
+              <a target="_blank"
+                class="inline-flex items-center lg:hover:text-primary transition-all duration-150 ease-in"
+                href="https://github.com/khangdev1998">Developer by Khang Nguyễn
+                <ion-icon class="ml-2 text-2xl" name="diamond-outline"></ion-icon>
+              </a>
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-bold leading-6 text-black mb-4">Services</h4>
+            <ul class="flex flex-col gap-y-4">
+              <li><a class="lg:hover:text-primary duration-100 transition-all ease-linear" href="#!">Email Marketing</a>
+              </li>
+              <li><a class="lg:hover:text-primary duration-100 transition-all ease-linear" href="#!">Campaigns</a></li>
+              <li><a class="lg:hover:text-primary duration-100 transition-all ease-linear" href="#!">Branding</a></li>
+              <li><a class="lg:hover:text-primary duration-100 transition-all ease-linear" href="#!">Offline</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-bold leading-6 text-black mb-4">About</h4>
+            <ul class="flex flex-col gap-y-4">
+              <li><a class="lg:hover:text-primary duration-100 transition-all ease-linear" href="#!">Our Story</a></li>
+              <li><a class="lg:hover:text-primary duration-100 transition-all ease-linear" href="#!">Benefits</a></li>
+              <li><a class="lg:hover:text-primary duration-100 transition-all ease-linear" href="#!">Team</a></li>
+              <li><a class="lg:hover:text-primary duration-100 transition-all ease-linear" href="#!">Careers</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="inline-block back-up cursor-pointer">
+              <img src="./images/to-up.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="flex sm:flex-row flex-col md:items-end items-start justify-between md:pt-[76px] pt-[40px]">
+          <div class="sm:w-auto w-full">
+            <h3 class="text-black text-2xl font-normal leading-9">Subscribe to our newsletter</h3>
+            <form
+              class="relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1.5px] after:bg-[#000000] after:opacity-[0.1] flex h-[51px] md:w-[370px]"
+              action="">
+              <input type="email" class="py-3 flex-1 h-full bg-transparent outline-none" placeholder="Email address"
+                required>
+              <button class="bg-blue p-[14px] rounded-lg rounded-b-none ml-2 text-white font-bold" type="submit">
+                <img src="./images/icon-subscribe.svg" alt="icon-submit">
+              </button>
+            </form>
+          </div>
+
+          <div class="flex md:mt-0 mt-6">
+            <a class="mr-10" href="#!">
+              <img src="./images/social-fb.svg" alt="">
+            </a>
+            <a class="mr-10" href="#!">
+              <img src="./images/social-tw.svg" alt="">
+            </a>
+            <a class="mr-none" href="#!">
+              <img src="./images/social-instagram.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

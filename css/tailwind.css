@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer components{} để thêm các class tái sử dụng */
+/* @layer utilities{} thêm các class có style khác nhau */
+/* @layer base{} thêm các thuộc tính trong các thẻ chung, vd: body,input... */
+
+@layer base {
+  * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body {
+    line-height: 1;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+  input,
+  button,
+  textarea {
+    outline: none;
+  }
+}
+@layer components {
+  .wrapper {
+    position: relative;
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .container-style {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .menu.active {
+    transform: translateX(0);
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.25s ease-in-out;
+  }
+  .overlay.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  .items-scroll::-webkit-scrollbar {
+    width: 6px;
+  }
+  .items-scroll::-webkit-scrollbar-thumb {
+    background: #7B61FF;
+  }
+}
