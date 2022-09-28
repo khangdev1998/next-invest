@@ -8,12 +8,14 @@ module.exports = {
         primary: '#7B61FF',
         gray: '#999999',
         blur: 'rgba(255, 255, 255, 0.8)',
+        'overlay-dark': 'rgba(0, 0, 0, 0.6)',
         black: '#333333',
-        blue: '#336EE1'
+        blue: '#336EE1',
+        dark: '#111111'
       },
       width: {
         widthCalc: 'calc(33.3333% - 20px)',
-        widthCols2: 'calc(50% - 15px)' 
+        widthCols2: 'calc(50% - 15px)'
       },
       boxShadow: {
         shadowItem: '0px 24px 60px rgba(51, 51, 51, 0.16)'
@@ -36,7 +38,17 @@ module.exports = {
       },
       dropShadow: {
         text: '0px 4px 4px rgba(0, 0, 0, 0.25)'
-      }
+      },
+      keyframes: {
+        circleLoading: {
+          to: {
+            transform: 'rotate(360deg)'
+          }
+        }
+      },
+      animation: {
+        'circle-loading': 'circleLoading 1s forwards infinite linear'
+      },
     },
   },
   variants: {

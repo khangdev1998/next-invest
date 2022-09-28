@@ -26,42 +26,24 @@
   }
 }
 @layer components {
-  .wrapper {
-    position: relative;
-    max-width: 1920px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .container-style {
-    max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .menu.active {
-    transform: translateX(0);
-  }
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 99;
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.25s ease-in-out;
-  }
-  .overlay.active {
-    visibility: visible;
-    opacity: 1;
-  }
   .items-scroll::-webkit-scrollbar {
     width: 6px;
   }
   .items-scroll::-webkit-scrollbar-thumb {
     background: #7B61FF;
+  }
+  .darkmode-input:checked + div {
+    background-color: white;
+  }
+  .darkmode-input:checked + div .darkmode-spinner {
+    color: white;
+    transform: translateX(60px);
+    background-color: #111111;
+  }
+  .darkmode-input:checked + div .darkmode-spinner .btn-sunny {
+    display: none;
+  }
+  .darkmode-input:checked + div .darkmode-spinner .btn-moon {
+    display: block;
   }
 }
