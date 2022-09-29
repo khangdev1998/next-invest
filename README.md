@@ -1,5 +1,4 @@
-- Download and install NodeJS: https://nodejs.org/en/download/
-- Open Terminal in project
-- npm install -g
-- npm install
-- npm run dev
+Giao diện được cắt từ Figma sử dụng các ngôn ngữ HTML,CSS,JAVASCRIPT,TailwindCSS
+
+Preview Website: https://khangdev1998.github.io/next-invest
+
