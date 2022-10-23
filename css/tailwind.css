@@ -19,6 +19,10 @@
     font-size: 16px;
     overflow-x: hidden;
   }
+  body,
+  html {
+    overflow-x: hidden;
+  }
   input,
   button,
   textarea {
@@ -30,7 +34,7 @@
     width: 6px;
   }
   .items-scroll::-webkit-scrollbar-thumb {
-    background: #7B61FF;
+    background: #7b61ff;
   }
   .darkmode-input:checked + div {
     background-color: white;

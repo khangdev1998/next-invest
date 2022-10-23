@@ -628,6 +628,11 @@ body {
   overflow-x: hidden;
 }
 
+body,
+  html {
+  overflow-x: hidden;
+}
+
 input,
   button,
   textarea {
@@ -639,7 +644,7 @@ input,
 }
 
 .items-scroll::-webkit-scrollbar-thumb {
-  background: #7B61FF;
+  background: #7b61ff;
 }
 
 .darkmode-input:checked + div {
@@ -800,6 +805,10 @@ input,
   margin-top: 60px;
 }
 
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -808,8 +817,8 @@ input,
   margin-right: 0.5rem;
 }
 
-.mt-\[50px\] {
-  margin-top: 50px;
+.mt-\[10px\] {
+  margin-top: 10px;
 }
 
 .mt-20 {
@@ -830,14 +839,6 @@ input,
 
 .mr-10 {
   margin-right: 2.5rem;
-}
-
-.mb-7 {
-  margin-bottom: 1.75rem;
-}
-
-.mt-\[10px\] {
-  margin-top: 10px;
 }
 
 .inline-block {
@@ -892,8 +893,8 @@ input,
   height: 51px;
 }
 
-.h-\[185px\] {
-  height: 185px;
+.h-\[120px\] {
+  height: 120px;
 }
 
 .h-\[40px\] {
@@ -940,8 +941,8 @@ input,
   width: 3.5rem;
 }
 
-.w-\[185px\] {
-  width: 185px;
+.w-\[120px\] {
+  width: 120px;
 }
 
 .w-\[100px\] {
@@ -1032,14 +1033,6 @@ input,
 
 .gap-\[30px\] {
   gap: 30px;
-}
-
-.gap-y-\[28px\] {
-  row-gap: 28px;
-}
-
-.gap-y-4 {
-  row-gap: 1rem;
 }
 
 .overflow-hidden {
@@ -1305,9 +1298,9 @@ input,
   line-height: 2rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-\[30px\] {
@@ -1322,11 +1315,6 @@ input,
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-base {
@@ -1750,8 +1738,8 @@ input,
     margin-top: 2.5rem;
   }
 
-  .lg\:mt-\[80px\] {
-    margin-top: 80px;
+  .lg\:mt-\[40px\] {
+    margin-top: 40px;
   }
 
   .lg\:mt-\[160px\] {
@@ -1760,10 +1748,6 @@ input,
 
   .lg\:mb-0 {
     margin-bottom: 0px;
-  }
-
-  .lg\:mt-\[40px\] {
-    margin-top: 40px;
   }
 
   .lg\:hidden {
@@ -1797,10 +1781,6 @@ input,
 
   .lg\:items-center {
     align-items: center;
-  }
-
-  .lg\:gap-y-\[40px\] {
-    row-gap: 40px;
   }
 
   .lg\:bg-transparent {
@@ -1840,8 +1820,8 @@ input,
     padding-left: 0.25rem;
   }
 
-  .lg\:pt-\[230px\] {
-    padding-top: 230px;
+  .lg\:pt-\[150px\] {
+    padding-top: 150px;
   }
 
   .lg\:pt-\[24px\] {
@@ -1872,6 +1852,14 @@ input,
     padding-top: 0px;
   }
 
+  .lg\:pt-\[0px\] {
+    padding-top: 0px;
+  }
+
+  .lg\:pt-\[140px\] {
+    padding-top: 140px;
+  }
+
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1885,11 +1873,6 @@ input,
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .lg\:leading-8 {
@@ -1935,5 +1918,19 @@ input,
 
   .xl\:block {
     display: block;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:h-\[140px\] {
+    height: 140px;
+  }
+
+  .\32xl\:w-\[140px\] {
+    width: 140px;
+  }
+
+  .\32xl\:pt-\[230px\] {
+    padding-top: 230px;
   }
 }
